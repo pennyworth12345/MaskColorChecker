@@ -1,0 +1,21 @@
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\MaskColorChecker\MaskColorChecker\bin\Release\MaskColorChecker.exe.config
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\MaskColorChecker\MaskColorChecker\bin\Release\MaskColorChecker.exe
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\MaskColorChecker\MaskColorChecker\bin\Release\MaskColorChecker.pdb
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\MaskColorChecker\MaskColorChecker\bin\Release\System.Collections.Immutable.dll
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\MaskColorChecker\MaskColorChecker\bin\Release\System.Collections.Immutable.xml
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\MaskColorChecker\MaskColorChecker\obj\Release\MaskColorChecker.exe
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\MaskColorChecker\MaskColorChecker\obj\Release\MaskColorChecker.pdb
+C:\Users\Andrew\Source\Repos\MaskColorChecker\MaskColorChecker\bin\Release\MaskColorChecker.exe.config
+C:\Users\Andrew\Source\Repos\MaskColorChecker\MaskColorChecker\obj\Release\MaskColorChecker.exe
+C:\Users\Andrew\Source\Repos\MaskColorChecker\MaskColorChecker\obj\Release\MaskColorChecker.pdb
+C:\Users\Andrew\Source\Repos\MaskColorChecker\MaskColorChecker\bin\Release\MaskColorChecker.exe
+C:\Users\Andrew\Source\Repos\MaskColorChecker\MaskColorChecker\bin\Release\MaskColorChecker.pdb
+C:\Users\Andrew\Source\Repos\MaskColorChecker\MaskColorChecker\bin\Release\System.Collections.Immutable.dll
+C:\Users\Andrew\Source\Repos\MaskColorChecker\MaskColorChecker\bin\Release\System.Collections.Immutable.xml
+C:\Users\Andrew\Documents\GitHub\MaskColorChecker\MaskColorChecker\bin\Release\MaskColorChecker.exe.config
+C:\Users\Andrew\Documents\GitHub\MaskColorChecker\MaskColorChecker\bin\Release\MaskColorChecker.exe
+C:\Users\Andrew\Documents\GitHub\MaskColorChecker\MaskColorChecker\bin\Release\MaskColorChecker.pdb
+C:\Users\Andrew\Documents\GitHub\MaskColorChecker\MaskColorChecker\bin\Release\System.Collections.Immutable.dll
+C:\Users\Andrew\Documents\GitHub\MaskColorChecker\MaskColorChecker\bin\Release\System.Collections.Immutable.xml
+C:\Users\Andrew\Documents\GitHub\MaskColorChecker\MaskColorChecker\obj\Release\MaskColorChecker.exe
+C:\Users\Andrew\Documents\GitHub\MaskColorChecker\MaskColorChecker\obj\Release\MaskColorChecker.pdb
