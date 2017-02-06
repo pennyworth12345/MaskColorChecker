@@ -5,9 +5,9 @@ A tool for Arma 3 to check the number of colors used on a surface mask.
 
 Usage
 ========
-This tool is currently intended to be used from the command line or run from a batch file. You will first want to atleast the terrain up in TB, and then make note of the tile size, overlap (actual overlap), tiles in row, and the number of materials per cell you selected when exporting the surface mask.
+This tool is currently intended to be used from the command line or run from a batch file. You will first want to load the terrain up in TB. Then make note of the tile size, overlap (actual overlap), tiles in row, and the number of materials per cell you selected when exporting the surface mask.
 
-**While this program only reads your surface mask, please make a backup of it prior to running it through this program to be safe.**
+**While this program only reads your surface mask, please make a backup of it prior to running it through this program.**
 
 Running from a batch file:
 ```
