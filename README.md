@@ -1,5 +1,5 @@
 # MaskColorChecker
-A tool for Arma 3 to check the number of colors used on a surface mask. In order
+A tool for Arma 3 to check the number of colors used on a surface mask.
 
 ## This tool is a WIP and may not be compatible with all setups.
 
