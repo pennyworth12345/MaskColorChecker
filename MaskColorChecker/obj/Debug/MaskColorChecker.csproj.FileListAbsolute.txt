@@ -6,3 +6,10 @@ c:\users\andrew\documents\visual studio 2015\Projects\MaskColorChecker\MaskColor
 C:\Users\Andrew\Documents\Visual Studio 2015\Projects\MaskColorChecker\MaskColorChecker\obj\Debug\MaskColorChecker.csprojResolveAssemblyReference.cache
 C:\Users\Andrew\Documents\Visual Studio 2015\Projects\MaskColorChecker\MaskColorChecker\bin\Debug\System.Collections.Immutable.dll
 C:\Users\Andrew\Documents\Visual Studio 2015\Projects\MaskColorChecker\MaskColorChecker\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Andrew\Documents\GitHub\MaskColorChecker\MaskColorChecker\bin\Debug\MaskColorChecker.exe.config
+C:\Users\Andrew\Documents\GitHub\MaskColorChecker\MaskColorChecker\obj\Debug\MaskColorChecker.exe
+C:\Users\Andrew\Documents\GitHub\MaskColorChecker\MaskColorChecker\obj\Debug\MaskColorChecker.pdb
+C:\Users\Andrew\Documents\GitHub\MaskColorChecker\MaskColorChecker\bin\Debug\MaskColorChecker.exe
+C:\Users\Andrew\Documents\GitHub\MaskColorChecker\MaskColorChecker\bin\Debug\MaskColorChecker.pdb
+C:\Users\Andrew\Documents\GitHub\MaskColorChecker\MaskColorChecker\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Andrew\Documents\GitHub\MaskColorChecker\MaskColorChecker\bin\Debug\System.Collections.Immutable.xml

@@ -68,6 +68,11 @@ namespace MaskColorChecker
             int spacing = tileSize - (overlap * 2);
             List<string> errors = new List<string>();
 
+            //creating copy of image for the purpose of drawing on the mask if the corresponding outputTiles value is selected
+            Image image = Image.FromFile(maskPath);
+            Graphics g = Graphics.FromImage(image);
+            bool needToSaveMask = false;
+
             using (Bitmap maskImage = new Bitmap(maskPath))
             {
                 for (int x = 0; x < tilesCount; x++)
@@ -137,12 +142,30 @@ namespace MaskColorChecker
                             if (colors.Count > colorsPerTile)
                             {
                                 //only needed if the user wants tiles outputted
-                                if (outputTiles == 1)
+                                if (outputTiles == 1 || outputTiles == 3)
                                 {
                                     //creating directory for bad tiles in the same directory as the original mask
                                     string outputPath = Path.Combine(Path.GetDirectoryName(maskPath), "Bad_Tiles");
                                     Directory.CreateDirectory(outputPath);
                                     generatedTile.Save(Path.Combine(outputPath, tileName));
+                                }
+                                if (outputTiles == 2 || outputTiles == 3)
+                                {
+                                    Color customColor = Color.FromArgb(255, Color.Gray);
+                                    SolidBrush shadowBrush = new SolidBrush(customColor);
+                                    if (tileRect.X > 5)
+                                    {
+                                        tileRect.X = tileRect.X - 5;
+                                        tileRect.Width = tileRect.Width + 10;
+                                    }
+                                    if (tileRect.Y > 5)
+                                    {
+                                        tileRect.Y = tileRect.Y - 5;
+                                        tileRect.Height = tileRect.Height + 10;
+                                    }
+                                    Pen myPen = new Pen(Color.FromArgb(255, 0, 0, 0), 10);
+                                    g.DrawRectangle(myPen, tileRect);
+                                    needToSaveMask = true;
                                 }
                                 errors.Add(string.Format("{0} had {1} colors", tileName, colors.Count));
                                 List<Color> keyList = new List<Color>(colors.Keys);
@@ -157,6 +180,15 @@ namespace MaskColorChecker
                         }
                     }
                 }
+            }
+
+            //only save the duplicate mask if they have the correct outputTiles mode and there were more colors than allowed in a tile
+            if (needToSaveMask)
+            {
+                string imageNewPath = Path.Combine(Path.GetDirectoryName(maskPath), "Bad_Tiles");
+                string outputDir = Path.Combine(Path.GetDirectoryName(maskPath), "Bad_Tiles");
+                Directory.CreateDirectory(outputDir);
+                image.Save(Path.Combine(outputDir, "debugMask.bmp"));
             }
 
             for (int i = 0; i < errors.Count; i++)
