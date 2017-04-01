@@ -26,7 +26,7 @@ Sets the number of unique colors that can be used in any given tile. If a tile h
 Determines whether the program should output the "theoretical" tile if it encounters more colors than allowed by colorsPerTile. The options for the different modes are as follows:
 + 0 - the program will only give you a message in the console with more information about tiles with issues.
 + 1 - the program will give that same message in the console, but will also output all of the tiles with issues to a `Bad_Tiles` folder in the same directory as your mask. For example, if your masks path was `"C:\some\path\to\yourMask.bmp"`, the tiles with issues would be outputted to `"C:\some\path\to\Bad_Tiles"`.
-+ 2 - the program will give that same message in the console, but will also duplicate the mask and draw rectangles on the areas where the number of surfaces exceed the allowed count per tile. For example, if your masks path was `"C:\some\path\to\yourMask.bmp"`, the duplicated mask will be outputted to "C:\some\path\to\Bad_Tiles\debugMask.bmp`".
++ 2 - the program will give that same message in the console, but will also duplicate the mask and draw rectangles on the areas where the number of surfaces exceed the allowed count per tile. For example, if your masks path was `"C:\some\path\to\yourMask.bmp"`, the duplicated mask will be outputted to `"C:\some\path\to\Bad_Tiles\debugMask.bmp"`.
     An example of how it looks:
     ![](http://i.imgur.com/Nc8iWbg.png)
 + 3 - the program will do all of the above options.
